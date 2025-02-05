@@ -1,0 +1,22 @@
+body {
+    margin : 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+}
+
+div.collection{
+    width: auto;
+}
+
+div.collection img {
+    width: 33%;
+    height: 400px;
+}
+
+h1 {
+    background-color: lightblue;
+}
+
+p {
+    background-color: red;
+}
+
