@@ -2,4 +2,4 @@
 
 pip install django
 cd photos
-py manage.py runserver
+python manage.py runserver
