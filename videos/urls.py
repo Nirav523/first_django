@@ -1,8 +1,7 @@
-from django.contrib import admin
 from django.urls import path
 from . import views
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('videos/', views.videos, name='videos'),
+    path('home/', views.home, name='home'),  # Define a view for the root path "/"
+    path('', views.videos, name='videos'),  # Define '/videos/' route
 ]
